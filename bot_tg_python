@@ -3,7 +3,7 @@ import random
 import sqlite3
 from telebot import types
 
-bot = telebot.TeleBot('6431978284:AAF1Ys8yvESN18wUz2964x0bJ9v6wR7BYlE')
+bot = telebot.TeleBot('YOUR TOKEN')
 @bot.message_handler(commands=['start'])
 def start(message):
     conn = sqlite3.connect('MathBot.sql')
